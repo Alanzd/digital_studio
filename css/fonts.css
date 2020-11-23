@@ -1,0 +1,65 @@
+*{
+    font-family: manrope;
+
+}
+.nav_right{
+    font-size:1rem;
+}
+.little{
+    font-size:1.1em;
+    letter-spacing: 0.5px;
+}
+
+
+main{
+    letter-spacing: -1px;
+    color: white;
+}
+.paragraph{
+    text-align: left;
+    font:3.7em bolder;
+
+}
+.main_p {
+    line-height: 1.2em;
+    font-size:1.6em;
+
+}
+.bigger_p {
+    font-size:3em;
+
+}
+
+.wrapper > .main_p p:first-child{
+    opacity: 0.6;
+}
+
+
+.db_paragraph{
+    font-size: 3em;
+}
+
+.matrix{
+    font-family: matrix;
+    font-size:2em;
+}
+
+form{
+    font-size:1.1em;
+}
+
+.matrix_bigger{
+    font-family: matrix;
+    font-size:4em;
+    font-weight: bold;
+}
+
+form input, form select, form textarea{
+    font-size: 0.7em;
+}
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  body{
+    box-sizing: border-box;
+  }
+
+  .container-inner::after{
+    display: block;
+    content: '';
+    clear: both;
+  }
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.trade_a{
+  color:black;
+}
+.trade_a:hover{
+  color: black;
+  opacity: 0.5;
+
+}
+a:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
