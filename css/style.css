@@ -1,5 +1,6 @@
-body{
+body {
     background-color: black;
+    z-index: 0;
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
 
 .nav_left img {
     width: 50%;
-    
+
 }
 
 .nav_right {
@@ -34,9 +35,10 @@ nav {
     color: white;
 
 }
+
 .nav_li {
     display: inline-flex;
-    margin:0% 2% 0% 2%;
+    margin: 0% 2% 0% 2%;
     flex-wrap: nowrap;
 
 }
@@ -45,12 +47,11 @@ nav {
 /* --------------- main ------------------  */
 
 main {
-    z-index: 1;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
-    box-sizing:border-box;
+    box-sizing: border-box;
 
 }
 
@@ -93,7 +94,7 @@ header p {
 
 .wrapper {
     padding-top: 5%;
-    margin-right:15%;
+    margin-right: 15%;
 
 }
 
@@ -111,7 +112,7 @@ header p {
 .trade_text {
     /* height: 500px; */
     margin-top: 10%;
-    margin-bottom: 12%;
+    margin-bottom: 7%;
 }
 
 .trade_left {
@@ -126,23 +127,38 @@ header p {
     text-align: right;
 }
 
-.trade_icons {
+.icons_flex {
     background-color: white;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
 
-.item {
+.icons_grid {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    column-gap: 10px;
+    row-gap: 30%;
+    margin-bottom: 10%;
+
+
+}
+
+.item{
     text-align: center;
     padding: 3%;
     margin: 2%;
 }
 
 .item img {
-    width: 100px;
-    height: auto;
-    margin:auto;
+    height: 50px;
+    margin: auto;
+}
+
+.item p {
+    margin: 10px;
 }
 
 /* --------------- double ------------------  */
@@ -289,12 +305,7 @@ header p {
     margin-top: 2%;
 }
 
-
 /* --------------- contact ------------------  */
-
-section_contact{
-    height: auto;
-}
 
 .side_1,
 .side_2 {
@@ -350,6 +361,7 @@ section_contact{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .side_right_web {
     float: right;
     width: 50%;
@@ -431,19 +443,21 @@ section_contact{
     margin-top: 5%;
 }
 
-#git{
-    display:flex;
+#git {
+    display: flex;
     vertical-align: baseline;
 }
-#git img{
+
+#git img {
     padding-top: 20%;
     padding-right: 20%;
     color: white;
-    width:32px;
+    width: 32px;
 
 }
-#git p{
-    padding-top:10px;
+
+#git p {
+    padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -451,7 +465,7 @@ section_contact{
     width: 20%;
     height: auto;
     border-radius: 150px;
-    padding:10px;
+    padding: 10px;
 }
 
 /* --------------- contact form ------------------  */
@@ -534,7 +548,7 @@ footer{
     flex-direction: row;
 } */
 
-.places{
+.places {
     margin-top: 10%;
     display: flex;
     flex-wrap: nowrap;
@@ -542,7 +556,7 @@ footer{
     justify-content: space-around;
 }
 
-.places_content{
+.places_content {
     display: block;
     padding: 2%;
     justify-content: start;
@@ -552,18 +566,19 @@ footer{
 /* --------------- footer lower  ------------------  */
 
 
-.lower-menu{
+.lower-menu {
     margin-top: 30%;
     margin-bottom: 10%;
     display: inline-flex;
     float: left;
 }
-.lower li{
+
+.lower li {
     margin-right: 20px;
 }
 
 
-.lower-span{
+.lower-span {
     margin-top: 30%;
     margin-bottom: 10%;
     float: right;
@@ -571,6 +586,7 @@ footer{
 
 }
 
-.lower-menu.little, .lower-span.little{
- opacity: 0.6;   
+.lower-menu.little,
+.lower-span.little {
+    opacity: 0.6;
 }
